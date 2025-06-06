@@ -10,5 +10,6 @@ app.UseHttpLogging();
 app.UseHttpsRedirection();
 
 app.MapGet("/", () => "Hello Amr!");
+app.MapGet("/home", () => "This is Home Page!");
 
 app.Run();
